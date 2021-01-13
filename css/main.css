@@ -36,13 +36,42 @@ nav {
     font-family: arial, sans-serif;
     font-size: 14px;
 }
-
-.search-container{
-    background: #fff;
-    display: flex;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-    height: 44px;
-    max-width: 484px;
+.search__main{
     width: auto;
+    height: 140px;
+}
+
+#searchform{
+    margin: 0 32px;
+}
+
+.search__outer{
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    max-width: 484px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+}
+
+.search__inner{
+    display: flex;
+    flex: 1;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    width: auto;
+}
+
+.search__inner-left{
+    display: flex;
+}
+
+.search__inner-center{
+    display: flex;
+    flex: 1;
+}
+
+.search__inner-right{
+    display: flex;
 }
