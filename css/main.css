@@ -1,0 +1,48 @@
+/* CSS stylesheet */
+center {
+    text-align: -webkit-center;
+}
+
+div {
+    font-family: arial,sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: None;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 75px;
+}
+
+.bar{
+    display:flex;
+}
+
+.bar-left{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bar-right{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#top-link{
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.search-container{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 484px;
+    width: auto;
+}
