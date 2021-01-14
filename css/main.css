@@ -3,7 +3,7 @@ center {
     text-align: -webkit-center;
 }
 
-div {
+div, body {
     font-family: arial,sans-serif;
 }
 
@@ -53,7 +53,17 @@ nav {
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     height: 44px;
-    padding: 5px 8px 0 16px;
+    padding: 0px 8px 0 16px;
+}
+
+.search__outer:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.main__logo{
+    height: 233px;
 }
 
 .search__inner{
@@ -85,7 +95,7 @@ nav {
 .search__search-logo{
     height: 24px;
     width: 24px;
-    fill: grey;
+    fill: #9aa0a6;
 }
 
 .search__box{
